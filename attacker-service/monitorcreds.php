@@ -20,6 +20,6 @@
     </style>
 </head>
 <body onload="beginSync();">
-<p class="field-val" id="message"><p>
+    <p class="field-val" id="message"><p>
 </body>
 </html>
