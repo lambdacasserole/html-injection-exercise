@@ -13,7 +13,8 @@ I use this as part of a practical activity in my seminars on cybersecurity for b
 
 ## Setup
 
-**Do not deploy this intentionally vulnerable web application on any webserver unless you don't mind destroying it.**
+> [!CAUTION]
+> Do not deploy this intentionally vulnerable web application on any webserver unless you don't mind destroying it.
 
 Now, configure Apache to separately serve (under different subdomains, for example) the three folders under the root of this project (`/attacker-service`, `/vulnerable-service`, and `/victim-service`). Alternatively, to run the project locally, ensure that PHP 7.0+ is installed and run the following from either of the aforementioned folders:
 
